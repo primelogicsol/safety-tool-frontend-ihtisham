@@ -10,32 +10,31 @@ export default function Menu() {
         <li className="dropdown">
           <Link href="#">Solutions</Link>
           <ul>
-            {/* Row 1 - First 4 sections */}
             <li>
-              <Link href="/solutions/distribution">Distribution</Link>
+              <Link href="#">Distribution</Link>
               <ul>
                 <li>
-                  <Link href="/solutions/safety-supplies">
+                  <Link href="/solutions/distribution/safety-supplies">
                     Safety Supplies/PPE
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/in-plant-service">
+                  <Link href="/solutions/distribution/in-plant-service">
                     In-Plant Service Center
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/garment-customizations">
+                  <Link href="/solutions/distribution/garment-customizations">
                     Garment Customizations
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/mill-tool-welding">
+                  <Link href="/solutions/distribution/mill-tool-welding">
                     Mill, Tool and Welding Supplies
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/vending-solutions">
+                  <Link href="/solutions/distribution/vending-solutions">
                     Vending Solutions
                   </Link>
                 </li>
@@ -47,22 +46,23 @@ export default function Menu() {
               </Link>
               <ul>
                 <li>
-                  <Link href="/solutions/emergency-medical">
+                  <Link href="/solutions/medical-management/emergency-medical">
                     Emergency Medical Management
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/covid-management">
+                  /
+                  <Link href="/solutions/medical-management/covid-management">
                     COVID-19 Management
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/onsite-medical">
+                  <Link href="/solutions/medical-management/onsite-medical">
                     On-site Medical Services
                   </Link>
                 </li>
                 <li>
-                  <Link href="/solutions/health-compliance">
+                  <Link href="/solutions/medical-management/health-compliance">
                     Health Compliance Officers
                   </Link>
                 </li>
